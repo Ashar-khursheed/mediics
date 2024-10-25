@@ -31,6 +31,7 @@ import HealthandWellbeing from './HealthandWelbing.js';
 import Sports from './Sports.js';
 import Travel from './Travel.js';
 import Tests from './Tests.js';
+import BookingPage from './BookingPage.js';
 
 function App() {
     return (
@@ -64,6 +65,7 @@ function App() {
                     <Route path="/sports-services" element={<Sports />} />  {/* About page route */}
                     <Route path="/travel-services" element={<Travel />} />  {/* About page route */}
                     <Route path="/tests-services" element={<Tests />} />  {/* About page route */}
+                    <Route path="/booking-form" element={<BookingPage />} />  Booking page route
                 </Routes>
                 
                 <Footer />

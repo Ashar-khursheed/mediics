@@ -49,7 +49,7 @@ const Navbar = () => {
             <a className="nav-link" href="/contact">Contact Us</a>
           </li>
         </ul>
-        <a href="#">
+        <a href="/booking-form">
           <button className="buttonone" type="button">Book Now</button>
         </a>
       </div>
