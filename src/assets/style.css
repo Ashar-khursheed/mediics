@@ -2031,6 +2031,7 @@ textarea.form-control {
 
 .form-step {
   display: block;
+  text-align: left;
 }
 
 .form-step.active {
