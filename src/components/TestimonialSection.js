@@ -15,21 +15,21 @@ const TestimonialSection = () => {
       name: 'Jaydon Workman',
       title: 'Senior Doctor',
       quote:
-        '“Elementum condimentum diam dapibus maximus. Proin placerat nec felis vel commodo. Varius turpis eget lorem dapibus, vel iaculis leo suspendisse. Cras at diam et enimio.”',
+        '“DriveThruMedics made getting my medical check-up so easy and convenient—highly recommend their service!”',
       image: clientImg,
     },
     {
       name: 'Amanda Smith',
       title: 'Nurse Practitioner',
       quote:
-        '“Aliquam tincidunt mauris eu risus. Vestibulum auctor dapibus neque. Nunc dignissim risus id metus. Cras ornare tristique elit. Vivamus vestibulum ntulla nec ante.”',
+        '“Quick, professional, and affordable. I had my driver medical in no time. Great service!”',
       image: clientImg,
     },
     {
       name: 'Michael Brown',
       title: 'General Physician',
       quote:
-        '“Phasellus suscipit nulla quis orci. Praesent venenatis metus at tortor pulvinar varius. Nulla neque dolor, sagittis eget, iaculis quis, molestie non, velit.”',
+        '“he team at DriveThruMedics was exceptional. They made the whole process stress-free. Fantastic experience!”',
       image: clientImg,
     },
   ];

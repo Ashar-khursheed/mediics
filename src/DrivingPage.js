@@ -13,7 +13,7 @@ const DrivingPage = () => {
                 <div className="hero-overlay-two"></div>
                 <div className="container">
                     <div className="hero-content-two text-center">
-                        <h1 className="display-4 fw-bold about-heading">Driving Services</h1>
+                        <h1 className="display-4 fw-bold about-heading">Taxi Medical</h1>
                     </div>
                 </div>
             </section>
@@ -22,7 +22,7 @@ const DrivingPage = () => {
             <div className="container servicess-section mt-5 mb-5">
                 <div className="row justify-content-center align-items-center mt-3 doctorsrow">
                     <div className="col-lg-6 col-md-10 text-start">
-                        <h1 className="mt-3 aboutmainheading">Driver Medicals</h1>
+                        <h1 className="mt-3 aboutmainheading">Taxi Medical Exams for Drivers</h1>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                             industry's standard dummy text ever since the 1500s...</p>
                         <a className="mt3" href="#">

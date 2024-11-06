@@ -6,7 +6,7 @@ const ContactSection = () => {
     <>
       {/* Hero Section */}
       <section className="hero-section-contact">
-        <div className="hero-overlay-two"></div>
+        {/* <div className="hero-overlay-two"></div> */}
         <div className="container">
           <div className="hero-content-two text-center">
             <h1 className="display-4 fw-bold contact-heading">Contact Us</h1>

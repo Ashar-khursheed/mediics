@@ -16,12 +16,18 @@ const AppointmentSection = () => {
               Refresh and Recharge Your Body Schedule Your Appointment Today
             </h1>
             <p className="text-start">
-              Schedule Your Appointment Today. Lorem ipsum dolor sit amet consectetur. Nibh in et a sem vivamus sed
-              nunc arcu aliquam sed suscipit.
+            Refresh and recharge your body—schedule your appointment today for a healthier tomorrow.
+
+
+
+
+
+
+
             </p>
             <div className="d-flex justify-content-center gap-3">
-              <a href="#" className="learnmorebtn">Learn More</a>
-              <a href="#" className="reservationbtn">Make Reservation</a>
+              <a href="/about" className="learnmorebtn">Learn More</a>
+              <a href="/booking-form" className="reservationbtn">Make Reservation</a>
             </div>
           </div>
           <div className="col-lg-6 col-md-12">

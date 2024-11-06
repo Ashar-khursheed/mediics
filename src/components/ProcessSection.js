@@ -42,7 +42,7 @@ const ProcessSection = () => {
                             >
                                 <div className="card-body accordion-body text-start">
                                     <p className="accordtext">
-                                    Lorem ipsum dolor sit amet consectetur Nibh in et a sem vivamus sed nunc arcu Aliquam sed suscipit a ultricies.Lorem ipsum dolor sit amet consectetur Nibh in et a sem vivamus sed nunc arcu Aliquam sed suscipit a ultricies.Lorem ipsum dolor sit amet consectetur Nibh in et a sem vivamus sed nunc arcu.Lorem ipsum dolor sit amet consectetur Nibh in et a sem vivamus sed nunc.Lorem ipsum dolor sit amet consectetur Nibh in et a sem vivamus sed nunc arcu Aliquam sed suscipit a ultricies.Lorem ipsum dolor sit amet consectetur Nibh in et a sem vivamus sed nunc arcu Aliquam sed suscipit a ultricies.Lorem ipsum dolor sit amet consectetur Nibh in et a sem vivamus sed nunc arcu.
+                                    Booking an appointment with Drive Thru Medics is easy and quick! Simply visit our website , choose your desired service, and select a time that works best for you. You can book a slot for in-person visits or request at-home services. We also provide flexible scheduling options to fit your busy lifestyle, ensuring that healthcare is always convenient for you.
 
 
                                     </p>
@@ -74,7 +74,7 @@ const ProcessSection = () => {
                             >
                                 <div className="card-body accordion-body text-start">
                                     <p className="accordtext">
-                                    Lorem ipsum dolor sit amet consectetur Nibh in et a sem vivamus sed nunc arcu Aliquam sed suscipit a ultricies.Lorem ipsum dolor sit amet consectetur Nibh in et a sem vivamus sed nunc arcu Aliquam sed suscipit a ultricies.Lorem ipsum dolor sit amet consectetur Nibh in et a sem vivamus sed nunc arcu.Lorem ipsum dolor sit amet consectetur Nibh in et a sem vivamus sed nunc.Lorem ipsum dolor sit amet consectetur Nibh in et a sem vivamus sed nunc arcu Aliquam sed suscipit a ultricies.Lorem ipsum dolor sit amet consectetur Nibh in et a sem vivamus sed nunc arcu Aliquam sed suscipit a ultricies.Lorem ipsum dolor sit amet consectetur Nibh in et a sem vivamus sed nunc arcu.
+                                    Take advantage of our free consultation service to get expert advice before committing to any medical procedure. Whether you have questions about your health, need guidance on which services to choose, or simply want to discuss your concerns with a professional, our medical team is here to help. Schedule your free consultation online and receive personalized care and support tailored to your needs.
 
 
                                     </p>
@@ -106,7 +106,7 @@ const ProcessSection = () => {
                             >
                                 <div className="card-body accordion-body text-start">
                                     <p className="accordtext">
-                                    Lorem ipsum dolor sit amet consectetur Nibh in et a sem vivamus sed nunc arcu Aliquam sed suscipit a ultricies.Lorem ipsum dolor sit amet consectetur Nibh in et a sem vivamus sed nunc arcu Aliquam sed suscipit a ultricies.Lorem ipsum dolor sit amet consectetur Nibh in et a sem vivamus sed nunc arcu.Lorem ipsum dolor sit amet consectetur Nibh in et a sem vivamus sed nunc.Lorem ipsum dolor sit amet consectetur Nibh in et a sem vivamus sed nunc arcu Aliquam sed suscipit a ultricies.Lorem ipsum dolor sit amet consectetur Nibh in et a sem vivamus sed nunc arcu Aliquam sed suscipit a ultricies.Lorem ipsum dolor sit amet consectetur Nibh in et a sem vivamus sed nunc arcu.
+                                    Connect with one of our experienced healthcare professionals who will guide you through your medical journey. Whether it's a routine check-up or specialized advice, our experts are here to provide personalized care and ensure you receive the best treatment. Book an appointment today to meet with our expert and get the professional guidance you deserve.
 
 
                                     </p>

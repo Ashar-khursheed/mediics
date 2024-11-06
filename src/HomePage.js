@@ -22,13 +22,13 @@ const HomePage = () => {
         <HeroSection />
     <FeaturesSection />
     <StatsSection />
-    <MissionAndVisionSection />
+    {/* <MissionAndVisionSection /> */}
     <ProcessSection />
     <ServiceSec />
     <LocationsSection />
     <AppointmentSection />
     <TestimonialSection />
-    <BlogAccordion />
+    {/* <BlogAccordion /> */}
     <NewsletterSection />
     </div>
   );

@@ -13,9 +13,9 @@ const HeroSection = () => {
                     </h5>
                     <h1 className="display-4 fw-bold">Your Convenient Health Care Solution!</h1>
                     <p className="lead">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium laudantium...
+                    At DriveThruMedics, we offer fast, convenient, and quality healthcare services at your doorstep or nearby locations, tailored to your needs
                     </p>
-                    <a href="#">
+                    <a href="/about">
                         <button className="buttonone" type="button">
                             Explore More
                         </button>

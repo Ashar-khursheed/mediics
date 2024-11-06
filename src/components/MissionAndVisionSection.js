@@ -13,8 +13,7 @@ const MissionAndVisionSection = () => {
                   <div key={index} className="custom-block-content">
                     <h3 className="custom-title">{title}</h3>
                     <p className="custom-text">
-                      Lorem ipsum dolor sit amet consectetur Nibh in et a sem vivamus sed nunc arcu Aliquam sed suscipit a ultricies.
-                      Lorem ipsum dolor sit amet consectetur Nibh in et a sem vivamus sed nunc arcu Aliquam sed suscipit a ultricies.
+                      At DriveThruMedics, our vision is to redefine healthcare accessibility by placing quality, convenience, and compassion at the heart of every service we offer. We aspire to be the trusted choice for personalized medical services—whether at our convenient locations or in the comfort of  your own home. By putting clients first in every interaction, we are committed to empowering healthier lives through seamless, on-demand healthcare that meets each individual’s unique needs
                     </p>
                   </div>
                 ))}
@@ -32,7 +31,7 @@ const MissionAndVisionSection = () => {
                   </div>
                   <div>
                     <p className="custom-text">
-                      Lorem ipsum dolor sit amet consectetur Nibh in et a sem vivamus sed nunc arcu Aliquam sed suscipit a ultricies.
+                      Over 200,000 patients have trusted us for fast, reliable, and high-quality healthcare services, making us a trusted choice for on-the-go medical care.
                     </p>
                   </div>
                 </div>
@@ -41,7 +40,7 @@ const MissionAndVisionSection = () => {
           </div>
         </div>
         <div className="row mt-5 mb-5">
-          <a className="d-flex justify-content-center align-items-center" href="#">
+          <a className="d-flex justify-content-center align-items-center" href="/about">
             <button className="buttonone" type="button">Explore More</button>
           </a>
         </div>

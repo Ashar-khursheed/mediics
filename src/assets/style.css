@@ -62,11 +62,11 @@ body {
 
 @media (max-width: 481px) {
 
- h1 {
-  font-size: 25px !important;
- }
+  h1 {
+    font-size: 25px !important;
+  }
 
- 
+
 
   p {
     font-size: 14px !important;
@@ -151,11 +151,11 @@ body {
 
   button.navbar-toggler {
     background-color: #09cded !important;
-}
+  }
 
-.headtextone {
-  font-size: 18px !important;
-}
+  .headtextone {
+    font-size: 18px !important;
+  }
 
 }
 
@@ -221,7 +221,7 @@ p {
 
 .icon-box i {
   color: white;
-margin-right: 10px ;
+  margin-right: 10px;
 }
 
 
@@ -252,14 +252,27 @@ a.navbar-brand.logo {
 
 .nav1 {
   padding-top: 20px;
-  background-color: #004767 !important;
+  background-color: #ffffff !important;
 }
 
 
 a.nav-link {
-  color: white !important;
+  color: #09cded !important;
   font-family: 'Poppins', sans-serif;
-  font-size: 16px;
+  font-weight: 500;
+  font-size: 20px;
+  transition: color 0.3s ease, transform 0.3s ease;
+
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+  /* Slight zoom on hover */
+}
+
+.dropdown-item {
+  color: var(--primary-color) !important;
+
 }
 
 
@@ -270,16 +283,35 @@ a.nav-link {
 .dropdown-submenu .dropdown-menu {
   top: 0;
   left: 100%;
-  display: none;
-  margin-top: -6px; /* Adjust as needed */
+  display: block;
+  /* Keep it block but use opacity and transform for hiding */
+  opacity: 0;
+  transform: translateX(-10px);
+  /* Start slightly to the left */
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  /* Animate opacity and position */
+  margin-top: -6px;
+  /* Adjust as needed */
+  pointer-events: none;
+  /* Prevent interaction when hidden */
 }
 
 .dropdown-submenu:hover .dropdown-menu {
-  display: block;
+  opacity: 1;
+  /* Fully visible on hover */
+  transform: translateX(0);
+  /* Slide into place */
+  pointer-events: auto;
+  /* Enable interaction */
 }
+
+
+
 .caret {
-  margin-left: 5px; /* Adjust spacing as needed */
-  font-size: 0.75em; /* Adjust size as needed */
+  margin-left: 5px;
+  /* Adjust spacing as needed */
+  font-size: 0.75em;
+  /* Adjust size as needed */
   display: inline-block;
 }
 
@@ -295,7 +327,9 @@ a.nav-link {
   text-decoration: none;
 }
 
-
+.logoimageone {
+  width: 100px !important;
+}
 
 
 /* Home Start */
@@ -303,7 +337,7 @@ a.nav-link {
 
 
 .hero-section {
-  background-image: url('../assets/img/bannerone.png');
+  background-image: url('../assets/img/bannerone.jpg');
   /* Replace with your image */
   background-size: cover;
   background-position: center;
@@ -629,7 +663,8 @@ a.nav-link {
 }
 
 
-#headingTwo,#headingOne {
+#headingTwo,
+#headingOne {
   background-color: white !important;
   padding: 0;
 }
@@ -1108,7 +1143,7 @@ button.btn.btn-link.accordion-button.card1 {
 
 .location-heading {
   width: 36%;
-  
+
   border-radius: 5px;
   font-family: 'poppins';
   font-size: 16px;
@@ -1193,8 +1228,9 @@ button.btn.btn-link.accordion-button.card1 {
   color: #004767;
   margin-bottom: 30px;
 }
-.testimonial-section .profile  {
- 
+
+.testimonial-section .profile {
+
   text-align: -webkit-center !important;
 }
 
@@ -1231,7 +1267,8 @@ button.btn.btn-link.accordion-button.card1 {
   align-items: center;
 }
 
-.slick-prev, .slick-next {
+.slick-prev,
+.slick-next {
   font-size: 24px;
   z-index: 1;
 }
@@ -1420,7 +1457,8 @@ button.btn.btn-link.accordion-button.card1 {
   background-color: #09cded !important;
   border: none !important;
 }
-.stats-section  .para{
+
+.stats-section .para {
 
   text-align: left;
 }
@@ -1433,19 +1471,24 @@ button.btn.btn-link.accordion-button.card1 {
     border-radius: 5px;
   }
 
+  .logoimageone {
+    width: 65px !important;
+  }
+
   .newsletter-form button {
     padding: 10px 5px;
-   
-}
-.stats-section .para{
 
-  text-align: center;
-}
+  }
 
-.medicalservice {
+  .stats-section .para {
 
-  text-align: center;
-}
+    text-align: center;
+  }
+
+  .medicalservice {
+
+    text-align: center;
+  }
 
 
 }
@@ -1554,7 +1597,7 @@ footer {
 }
 
 
-.about-section  {
+.about-section {
   padding: 50px 0;
 }
 
@@ -1989,7 +2032,7 @@ textarea.form-control {
   background-image: url('../assets/img/servcies/healthandwell.jpg');
   /* Replace with your image */
   background-size: cover;
-  background-position:  center;
+  background-position: center;
   height: 70vh;
   display: flex;
   align-items: center;
@@ -2006,7 +2049,7 @@ textarea.form-control {
   background-image: url('../assets/img/servcies/tests.webp');
   /* Replace with your image */
   background-size: cover;
-  background-position:  center;
+  background-position: center;
   height: 70vh;
   display: flex;
   align-items: center;
@@ -2031,7 +2074,6 @@ textarea.form-control {
 
 .form-step {
   display: block;
-  text-align: left;
 }
 
 .form-step.active {
@@ -2148,3 +2190,278 @@ textarea.form-control {
     height: 45vh !important;
   }
 }
+
+
+
+
+/* driving-medicals */
+
+.hero-section-driving ul {
+  font-size: 1.25rem;
+}
+
+.hero-overlay-two {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Dark overlay */
+}
+
+
+/* Taxi med */
+
+.custom-bullets li {
+  font-size: 16px;
+  font-family: 'poppins';
+}
+
+.hero-section-taxi {
+  background-image: url('../assets/img/servcies/taxibannerone.webp') !important;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white
+}
+
+
+
+.hero-section-amb {
+  background-image: url('../assets/img/servcies/ambulancebanner.jpg') !important;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white
+}
+
+
+.hero-section-hgv {
+  background-image: url('../assets/img/servcies/hgvbanner.jpg') !important;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white
+}
+
+
+.hero-section-motorsports {
+  background-image: url('../assets/img/servcies/motorsports.webp') !important;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white
+}
+
+
+
+.hero-section-boxingsports {
+  background-image: url('../assets/img/servcies/boxingbanner.webp') !important;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white
+}
+
+
+.hero-section-scuba {
+  background-image: url('../assets/img/servcies/scubaban.webp') !important;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white
+}
+
+
+.hero-section-horse {
+  background-image: url('../assets/img/servcies/horseban.webp') !important;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white
+}
+
+.hero-section-sky {
+  background-image: url('../assets/img/servcies/skydd.jfif') !important;
+  background-size: auto;
+  background-position: auto;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white
+}
+
+
+.hero-section-fit {
+  background-image: url('../assets/img/servcies/fitfly.webp') !important;
+  background-size: auto;
+  background-position: auto;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white
+}
+
+
+.hero-section-travel {
+  background-image: url('../assets/img/servcies/travelvv.webp') !important;
+  background-size: contain;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white
+}
+
+
+
+.hero-section-iv {
+  background-image: url('../assets/img/servcies/iv.webp') !important;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white
+}
+
+.hero-section-inj {
+  background-image: url('../assets/img/servcies/inj.webp') !important;
+  background-size: auto;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white
+}
+
+
+
+.hero-section-cup {
+  background-image: url('../assets/img/servcies/cupban.webp') !important;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white
+}
+
+.hero-section-sp {
+  background-image: url('../assets/img/servcies/sportban.webp') !important;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white
+}
+
+.hero-section-ciro {
+  background-image: url('../assets/img/servcies/ciroban.webp') !important;
+  background-size: auto;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white
+}
+
+.hero-section-sexual {
+  background-image: url('../assets/img/servcies/sexuban.webp') !important;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white
+}
+
+
+.hero-section-blood {
+  background-image: url('../assets/img/servcies/bloodban.webp') !important;
+  background-size: auto;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white
+}
+
+.hero-section-drug {
+  background-image: url('../assets/img/servcies/drugban.webp') !important;
+  background-size: auto;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white
+}
+
+.hero-section-exe {
+  background-image: url('../assets/img/servcies/exeban.webp') !important;
+  background-size: auto;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white
+}
+
+
+
+
+
